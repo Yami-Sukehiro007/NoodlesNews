@@ -16,7 +16,7 @@ export default class Newsitem extends Component {
 
                         <span className="badge rounded-pill bg-danger"> {source} </span>
                     </div>
-      <img src={imgUrl} className="card-img-top"/>
+      <img src={imgUrl} className="card-img-top" alt="Card"/>
       <div className="card-body">
         <h5 className="card-title">{title}...</h5>
         <p className="card-text">
